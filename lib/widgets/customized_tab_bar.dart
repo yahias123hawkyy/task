@@ -35,7 +35,8 @@ class _CustomizedTabBarState extends State<CustomizedTabBar>
                 unselectedLabelColor: Colors.black,
                 indicatorSize: TabBarIndicatorSize.label,
                 indicator: BoxDecoration(
-                    borderRadius: BorderRadius.circular(50), color: Colors.white),
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.white),
                 tabs: <Widget>[
                   Tab(
                     child: Align(
@@ -138,7 +139,7 @@ Widget detailsTab(BuildContext context) {
               height: 5,
             ),
             Container(
-              height: MediaQuery.of(context).size.height*0.069,
+              height: MediaQuery.of(context).size.height * 0.069,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[

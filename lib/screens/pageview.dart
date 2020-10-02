@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'first_page.dart';
+import 'page_layout.dart';
 import '../widgets/bottom_buttons_widget.dart';
 
 class PageViewScreen extends StatefulWidget {
